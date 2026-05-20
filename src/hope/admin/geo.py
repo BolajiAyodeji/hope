@@ -90,8 +90,17 @@ class ValidityManagerMixin:
 
 @admin.register(Country)
 class CountryAdmin(ValidityManagerMixin, SyncModelAdmin, FieldsetMixin, HOPEModelAdminBase):
-    list_display = ("name", "short_name", "iso_code2", "iso_code3", "iso_num")
-    search_fields = ("name", "short_name", "iso_code2", "iso_code3", "iso_num")
+    list_display = ("name", "short_name", "iso_code2", "iso_code3", "iso_num", "iso_code_4217", "currency")
+    search_fields = (
+        "name",
+        "short_name",
+        "iso_code2",
+        "iso_code3",
+        "iso_num",
+        "iso_code_4217",
+        "currency__code",
+        "currency__name",
+    )
     fieldsets = (
         (
             "",

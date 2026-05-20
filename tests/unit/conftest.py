@@ -10,6 +10,7 @@ from constance import config as constance_config
 from constance.backends.memory import MemoryBackend
 from django.conf import settings
 from django.core.cache import cache
+from django.db import models
 from django_elasticsearch_dsl.test import is_es_online
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import connections
@@ -74,9 +75,13 @@ def all_currencies(db: Any) -> None:
 
     mod = importlib.import_module("hope.apps.core.migrations.0020_migration")
     Currency.objects.bulk_create(
-        [Currency(code=code, name=name, is_crypto=is_crypto) for code, name, is_crypto in mod.CURRENCIES],
+        [
+            Currency(code=code, name=name, is_crypto=is_crypto, iso_code_4217=code)
+            for code, name, is_crypto in mod.CURRENCIES
+        ],
         ignore_conflicts=True,
     )
+    Currency.objects.filter(iso_code_4217="").update(iso_code_4217=models.F("code"))
 
 
 def pytest_addoption(parser: Parser) -> None:

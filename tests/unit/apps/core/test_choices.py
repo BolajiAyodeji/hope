@@ -131,9 +131,9 @@ def test_choices_currencies_returns_currencies_from_db(authenticated_client, cur
     assert response.status_code == 200
     assert len(response.data) == 3
     assert response.data == [
-        {"name": "Polish Zloty", "value": "PLN"},
-        {"name": "USD Coin", "value": "USDC"},
-        {"name": "United States Dollar", "value": "USD"},
+        {"name": "Polish Zloty", "value": "PLN", "iso_code_4217": "PLN"},
+        {"name": "United States Dollar", "value": "USD", "iso_code_4217": "USD"},
+        {"name": "USD Coin", "value": "USDC", "iso_code_4217": "USDC"},
     ]
 
 
@@ -145,4 +145,4 @@ def test_choices_currencies_returns_value_name_format(authenticated_client, curr
     for item in response.data:
         assert "value" in item
         assert "name" in item
-        assert len(item) == 2
+        assert "iso_code_4217" in item

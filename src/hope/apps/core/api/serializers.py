@@ -9,7 +9,7 @@ from hope.models import BusinessArea, Country, DataCollectingType, FlexibleAttri
 class CountrySmallSerializer(serializers.ModelSerializer):
     class Meta:
         model = Country
-        fields = ("name", "iso_code2", "iso_code3")
+        fields = ("name", "iso_code2", "iso_code3", "iso_code_4217")
 
 
 class BusinessAreaSerializer(serializers.ModelSerializer):

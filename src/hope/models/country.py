@@ -12,6 +12,7 @@ from mptt.models import MPTTModel
 from mptt.querysets import TreeQuerySet
 from natural_keys import NaturalKeyModel
 
+from hope.models.currency import Currency
 from hope.models.utils import TimeStampedUUIDModel
 
 
@@ -42,6 +43,16 @@ class Country(NaturalKeyModel, MPTTModel, UpgradeModel, TimeStampedUUIDModel):
     iso_code2 = models.CharField(max_length=2, unique=True)
     iso_code3 = models.CharField(max_length=3, unique=True)
     iso_num = models.CharField(max_length=4, unique=True)
+    iso_code_4217 = models.CharField(max_length=5, blank=True, default="")
+    currency = models.ForeignKey(
+        Currency,
+        verbose_name=_("Currency"),
+        null=True,
+        blank=True,
+        on_delete=models.PROTECT,
+        related_name="countries",
+        help_text=_("The currency used in this country"),
+    )
     parent = TreeForeignKey(
         "self",
         verbose_name=_("Parent"),
@@ -64,6 +75,11 @@ class Country(NaturalKeyModel, MPTTModel, UpgradeModel, TimeStampedUUIDModel):
 
     def __str__(self) -> str:
         return self.name
+
+    def save(self, *args: Any, **kwargs: Any) -> None:
+        if not self.iso_code_4217:
+            self.iso_code_4217 = self.iso_code3
+        super().save(*args, **kwargs)
 
     @classmethod
     def get_choices(cls) -> list[dict[str, Any]]:

@@ -1269,6 +1269,32 @@ def test_payment_instruction_get_payload_sets_destination_country_iso_fields_onl
     assert payload_with_country["destination_country_iso_code2"] == "AF"
 
 
+def test_payment_instruction_payload_uses_country_iso_code_4217_when_overridden(
+    payment_plan_splits: list[PaymentPlanSplit],
+) -> None:
+    from hope.models import Country
+
+    split = payment_plan_splits[0]
+    business_area = split.payment_plan.business_area
+    business_area.payment_countries.clear()
+    business_area.payment_countries.add(
+        Country.objects.create(
+            name="Test Country",
+            short_name="Test",
+            iso_code2="AF",
+            iso_code3="AFG",
+            iso_num="9999",
+            iso_code_4217="AFGCU",
+        )
+    )
+
+    data = PaymentInstructionFromSplitSerializer(split, context={"user_email": "user@example.com"}).data
+
+    assert data["payload"]["country"] == "AFGCU"
+    assert data["payload"]["destination_country_iso_code3"] == "AFGCU"
+    assert data["payload"]["destination_country_iso_code2"] == "AF"
+
+
 @mock.patch("hope.apps.payment.services.payment_gateway.PaymentGatewayAPI._get")
 def test_api_get_delivery_mechanisms(get_mock: Any) -> None:
     get_mock.return_value = (

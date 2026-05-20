@@ -25,7 +25,8 @@
             {
                 "name": "Testland",
                 "iso_code2": "TL",
-                "iso_code3": "TLN"
+                "iso_code3": "TLN",
+                "iso_code_4217": ""
             }
         ]
     },

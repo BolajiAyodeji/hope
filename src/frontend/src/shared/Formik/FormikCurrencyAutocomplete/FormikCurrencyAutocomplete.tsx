@@ -35,7 +35,11 @@ export const FormikCurrencyAutocomplete = ({
     <Autocomplete
       options={data || []}
       defaultValue={field.value}
-      getOptionLabel={(option: any) => option.name}
+      getOptionLabel={(option: any) =>
+        option.iso_code_4217
+          ? `${option.name} (${option.iso_code_4217})`
+          : option.name
+      }
       onChange={handleChange}
       disabled={disabled}
       fullWidth

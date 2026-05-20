@@ -6,5 +6,6 @@ export type Country = {
     readonly id: string;
     name: string;
     isoCode3: string;
+    isoCode4217: string;
 };
 

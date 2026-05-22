@@ -28,7 +28,6 @@ def _country_response(country: Country) -> dict:
         "iso_code2": country.iso_code2,
         "iso_code3": country.iso_code3,
         "iso_num": country.iso_num,
-        "iso_code_4217": country.iso_code_4217,
         "updated_at": country.updated_at.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "valid_from": country.valid_from.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "valid_until": country.valid_until.strftime("%Y-%m-%dT%H:%M:%SZ"),

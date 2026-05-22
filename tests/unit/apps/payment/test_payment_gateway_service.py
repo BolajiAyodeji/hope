@@ -1269,7 +1269,7 @@ def test_payment_instruction_get_payload_sets_destination_country_iso_fields_onl
     assert payload_with_country["destination_country_iso_code2"] == "AF"
 
 
-def test_payment_instruction_payload_uses_country_iso_code_4217_when_overridden(
+def test_payment_instruction_payload_uses_country_iso_code3(
     payment_plan_splits: list[PaymentPlanSplit],
 ) -> None:
     from hope.models import Country
@@ -1284,14 +1284,13 @@ def test_payment_instruction_payload_uses_country_iso_code_4217_when_overridden(
             iso_code2="AF",
             iso_code3="AFG",
             iso_num="9999",
-            iso_code_4217="AFGCU",
         )
     )
 
     data = PaymentInstructionFromSplitSerializer(split, context={"user_email": "user@example.com"}).data
 
-    assert data["payload"]["country"] == "AFGCU"
-    assert data["payload"]["destination_country_iso_code3"] == "AFGCU"
+    assert data["payload"]["country"] == "AFG"
+    assert data["payload"]["destination_country_iso_code3"] == "AFG"
     assert data["payload"]["destination_country_iso_code2"] == "AF"
 
 

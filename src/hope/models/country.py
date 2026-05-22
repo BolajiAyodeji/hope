@@ -38,12 +38,15 @@ class CountryManager(ValidityManager):
 
 
 class Country(NaturalKeyModel, MPTTModel, UpgradeModel, TimeStampedUUIDModel):
-    name = models.CharField(max_length=255, db_index=True, db_collation="und-ci-det")
-    short_name = models.CharField(max_length=255, db_index=True, db_collation="und-ci-det")
-    iso_code2 = models.CharField(max_length=2, unique=True)
-    iso_code3 = models.CharField(max_length=3, unique=True)
-    iso_num = models.CharField(max_length=4, unique=True)
-    iso_code_4217 = models.CharField(max_length=5, blank=True, default="")
+    name = models.CharField(
+        max_length=255, db_index=True, db_collation="und-ci-det", help_text=_("The full name of the country")
+    )
+    short_name = models.CharField(
+        max_length=255, db_index=True, db_collation="und-ci-det", help_text=_("The short name of the country")
+    )
+    iso_code2 = models.CharField(max_length=2, unique=True, help_text=_("The ISO 3166-1 alpha-2 code"))
+    iso_code3 = models.CharField(max_length=3, unique=True, help_text=_("The ISO 3166-1 alpha-3 code"))
+    iso_num = models.CharField(max_length=4, unique=True, help_text=_("The ISO 3166-1 numeric code"))
     currency = models.ForeignKey(
         Currency,
         verbose_name=_("Currency"),
@@ -61,10 +64,13 @@ class Country(NaturalKeyModel, MPTTModel, UpgradeModel, TimeStampedUUIDModel):
         related_name="children",
         db_index=True,
         on_delete=models.CASCADE,
+        help_text=_("The parent area in the hierarchy"),
     )
-    valid_from = models.DateTimeField(blank=True, null=True, auto_now_add=True)
-    valid_until = models.DateTimeField(blank=True, null=True)
-    extras = JSONField(default=dict, blank=True)
+    valid_from = models.DateTimeField(
+        blank=True, null=True, auto_now_add=True, help_text=_("The date from which this record is valid")
+    )
+    valid_until = models.DateTimeField(blank=True, null=True, help_text=_("The date until which this record is valid"))
+    extras = JSONField(default=dict, blank=True, help_text=_("Extra data for this country"))
 
     objects = CountryManager()
 
@@ -75,11 +81,6 @@ class Country(NaturalKeyModel, MPTTModel, UpgradeModel, TimeStampedUUIDModel):
 
     def __str__(self) -> str:
         return self.name
-
-    def save(self, *args: Any, **kwargs: Any) -> None:
-        if not self.iso_code_4217:
-            self.iso_code_4217 = self.iso_code3
-        super().save(*args, **kwargs)
 
     @classmethod
     def get_choices(cls) -> list[dict[str, Any]]:

@@ -52,7 +52,6 @@ class CountrySerializer(serializers.ModelSerializer):
             "id",
             "name",
             "iso_code3",
-            "iso_code_4217",
         )
 
 

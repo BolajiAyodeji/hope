@@ -15,8 +15,8 @@ def usd(db):
 
 
 @pytest.fixture
-def usd_with_overridden_iso_code_4217(db):
-    return CurrencyFactory(code="USD", name="United States Dollar", iso_code_4217="USC")
+def usd_with_overridden_vision_code(db):
+    return CurrencyFactory(code="USD", name="United States Dollar", vision_code="USC")
 
 
 class TestPaymentInstructionFromSplitSerializerCurrency:
@@ -53,8 +53,8 @@ class TestPaymentInstructionFromSplitSerializerCurrency:
 
         assert payload["destination_currency"] is None
 
-    def test_payload_destination_currency_uses_iso_code_4217_when_overridden(self, django_assert_num_queries):
-        currency = CurrencyFactory(code="XYC", name="Test Currency", iso_code_4217="XYCO")
+    def test_payload_destination_currency_uses_vision_code_when_overridden(self, django_assert_num_queries):
+        currency = CurrencyFactory(code="XYC", name="Test Currency", vision_code="XYCO")
         payment_plan = MagicMock()
         payment_plan.currency = currency
         payment_plan.business_area.code = "BA01"
@@ -130,7 +130,7 @@ class TestPaymentSerializerCurrency:
         }
         assert payload_data["destination_currency"] is None
 
-    def test_payload_destination_currency_uses_iso_code_4217_when_overridden(self, django_assert_num_queries):
+    def test_payload_destination_currency_uses_vision_code_when_overridden(self, django_assert_num_queries):
         snapshot_data = {
             "primary_collector": {
                 "unicef_id": "IND-001",
@@ -143,7 +143,7 @@ class TestPaymentSerializerCurrency:
             }
         }
 
-        currency = CurrencyFactory(code="ABC", name="Another Test", iso_code_4217="ABCO")
+        currency = CurrencyFactory(code="ABC", name="Another Test", vision_code="ABCO")
         payment = MagicMock()
         payment.currency = currency
         payment.entitlement_quantity = 200.00

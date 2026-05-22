@@ -14,817 +14,817 @@
         {
             "value": "AED",
             "name": "United Arab Emirates dirham",
-            "iso_code_4217": "AED"
+            "vision_code": "AED"
         },
         {
             "value": "AFN",
             "name": "Afghan afghani",
-            "iso_code_4217": "AFN"
+            "vision_code": "AFN"
         },
         {
             "value": "ALL",
             "name": "Albanian lek",
-            "iso_code_4217": "ALL"
+            "vision_code": "ALL"
         },
         {
             "value": "AMD",
             "name": "Armenian dram",
-            "iso_code_4217": "AMD"
+            "vision_code": "AMD"
         },
         {
             "value": "ANG",
             "name": "Netherlands Antillean guilder",
-            "iso_code_4217": "ANG"
+            "vision_code": "ANG"
         },
         {
             "value": "AOA",
             "name": "Angolan kwanza",
-            "iso_code_4217": "AOA"
+            "vision_code": "AOA"
         },
         {
             "value": "ARS",
             "name": "Argentine peso",
-            "iso_code_4217": "ARS"
+            "vision_code": "ARS"
         },
         {
             "value": "AUD",
             "name": "Australian dollar",
-            "iso_code_4217": "AUD"
+            "vision_code": "AUD"
         },
         {
             "value": "AWG",
             "name": "Aruban florin",
-            "iso_code_4217": "AWG"
+            "vision_code": "AWG"
         },
         {
             "value": "AZN",
             "name": "Azerbaijani manat",
-            "iso_code_4217": "AZN"
+            "vision_code": "AZN"
         },
         {
             "value": "BAM",
             "name": "Bosnia and Herzegovina convertible mark",
-            "iso_code_4217": "BAM"
+            "vision_code": "BAM"
         },
         {
             "value": "BBD",
             "name": "Barbados dollar",
-            "iso_code_4217": "BBD"
+            "vision_code": "BBD"
         },
         {
             "value": "BDT",
             "name": "Bangladeshi taka",
-            "iso_code_4217": "BDT"
+            "vision_code": "BDT"
         },
         {
             "value": "BGN",
             "name": "Bulgarian lev",
-            "iso_code_4217": "BGN"
+            "vision_code": "BGN"
         },
         {
             "value": "BHD",
             "name": "Bahraini dinar",
-            "iso_code_4217": "BHD"
+            "vision_code": "BHD"
         },
         {
             "value": "BIF",
             "name": "Burundian franc",
-            "iso_code_4217": "BIF"
+            "vision_code": "BIF"
         },
         {
             "value": "BMD",
             "name": "Bermudian dollar",
-            "iso_code_4217": "BMD"
+            "vision_code": "BMD"
         },
         {
             "value": "BND",
             "name": "Brunei dollar",
-            "iso_code_4217": "BND"
+            "vision_code": "BND"
         },
         {
             "value": "BOB",
             "name": "Boliviano",
-            "iso_code_4217": "BOB"
+            "vision_code": "BOB"
         },
         {
             "value": "BOV",
             "name": "Bolivian Mvdol (funds code)",
-            "iso_code_4217": "BOV"
+            "vision_code": "BOV"
         },
         {
             "value": "BRL",
             "name": "Brazilian real",
-            "iso_code_4217": "BRL"
+            "vision_code": "BRL"
         },
         {
             "value": "BSD",
             "name": "Bahamian dollar",
-            "iso_code_4217": "BSD"
+            "vision_code": "BSD"
         },
         {
             "value": "BTN",
             "name": "Bhutanese ngultrum",
-            "iso_code_4217": "BTN"
+            "vision_code": "BTN"
         },
         {
             "value": "BWP",
             "name": "Botswana pula",
-            "iso_code_4217": "BWP"
+            "vision_code": "BWP"
         },
         {
             "value": "BYN",
             "name": "Belarusian ruble",
-            "iso_code_4217": "BYN"
+            "vision_code": "BYN"
         },
         {
             "value": "BZD",
             "name": "Belize dollar",
-            "iso_code_4217": "BZD"
+            "vision_code": "BZD"
         },
         {
             "value": "CAD",
             "name": "Canadian dollar",
-            "iso_code_4217": "CAD"
+            "vision_code": "CAD"
         },
         {
             "value": "CDF",
             "name": "Congolese franc",
-            "iso_code_4217": "CDF"
+            "vision_code": "CDF"
         },
         {
             "value": "CHF",
             "name": "Swiss franc",
-            "iso_code_4217": "CHF"
+            "vision_code": "CHF"
         },
         {
             "value": "CLP",
             "name": "Chilean peso",
-            "iso_code_4217": "CLP"
+            "vision_code": "CLP"
         },
         {
             "value": "CNY",
             "name": "Chinese yuan",
-            "iso_code_4217": "CNY"
+            "vision_code": "CNY"
         },
         {
             "value": "COP",
             "name": "Colombian peso",
-            "iso_code_4217": "COP"
+            "vision_code": "COP"
         },
         {
             "value": "CRC",
             "name": "Costa Rican colon",
-            "iso_code_4217": "CRC"
+            "vision_code": "CRC"
         },
         {
             "value": "CUC",
             "name": "Cuban convertible peso",
-            "iso_code_4217": "CUC"
+            "vision_code": "CUC"
         },
         {
             "value": "CUP",
             "name": "Cuban peso",
-            "iso_code_4217": "CUP"
+            "vision_code": "CUP"
         },
         {
             "value": "CVE",
             "name": "Cape Verdean escudo",
-            "iso_code_4217": "CVE"
+            "vision_code": "CVE"
         },
         {
             "value": "CZK",
             "name": "Czech koruna",
-            "iso_code_4217": "CZK"
+            "vision_code": "CZK"
         },
         {
             "value": "DJF",
             "name": "Djiboutian franc",
-            "iso_code_4217": "DJF"
+            "vision_code": "DJF"
         },
         {
             "value": "DKK",
             "name": "Danish krone",
-            "iso_code_4217": "DKK"
+            "vision_code": "DKK"
         },
         {
             "value": "DOP",
             "name": "Dominican peso",
-            "iso_code_4217": "DOP"
+            "vision_code": "DOP"
         },
         {
             "value": "DZD",
             "name": "Algerian dinar",
-            "iso_code_4217": "DZD"
+            "vision_code": "DZD"
         },
         {
             "value": "EGP",
             "name": "Egyptian pound",
-            "iso_code_4217": "EGP"
+            "vision_code": "EGP"
         },
         {
             "value": "ERN",
             "name": "Eritrean nakfa",
-            "iso_code_4217": "ERN"
+            "vision_code": "ERN"
         },
         {
             "value": "ETB",
             "name": "Ethiopian birr",
-            "iso_code_4217": "ETB"
+            "vision_code": "ETB"
         },
         {
             "value": "EUR",
             "name": "Euro",
-            "iso_code_4217": "EUR"
+            "vision_code": "EUR"
         },
         {
             "value": "FJD",
             "name": "Fiji dollar",
-            "iso_code_4217": "FJD"
+            "vision_code": "FJD"
         },
         {
             "value": "FKP",
             "name": "Falkland Islands pound",
-            "iso_code_4217": "FKP"
+            "vision_code": "FKP"
         },
         {
             "value": "GBP",
             "name": "Pound sterling",
-            "iso_code_4217": "GBP"
+            "vision_code": "GBP"
         },
         {
             "value": "GEL",
             "name": "Georgian lari",
-            "iso_code_4217": "GEL"
+            "vision_code": "GEL"
         },
         {
             "value": "GHS",
             "name": "Ghanaian cedi",
-            "iso_code_4217": "GHS"
+            "vision_code": "GHS"
         },
         {
             "value": "GIP",
             "name": "Gibraltar pound",
-            "iso_code_4217": "GIP"
+            "vision_code": "GIP"
         },
         {
             "value": "GMD",
             "name": "Gambian dalasi",
-            "iso_code_4217": "GMD"
+            "vision_code": "GMD"
         },
         {
             "value": "GNF",
             "name": "Guinean franc",
-            "iso_code_4217": "GNF"
+            "vision_code": "GNF"
         },
         {
             "value": "GTQ",
             "name": "Guatemalan quetzal",
-            "iso_code_4217": "GTQ"
+            "vision_code": "GTQ"
         },
         {
             "value": "GYD",
             "name": "Guyanese dollar",
-            "iso_code_4217": "GYD"
+            "vision_code": "GYD"
         },
         {
             "value": "HKD",
             "name": "Hong Kong dollar",
-            "iso_code_4217": "HKD"
+            "vision_code": "HKD"
         },
         {
             "value": "HNL",
             "name": "Honduran lempira",
-            "iso_code_4217": "HNL"
+            "vision_code": "HNL"
         },
         {
             "value": "HRK",
             "name": "Croatian kuna",
-            "iso_code_4217": "HRK"
+            "vision_code": "HRK"
         },
         {
             "value": "HTG",
             "name": "Haitian gourde",
-            "iso_code_4217": "HTG"
+            "vision_code": "HTG"
         },
         {
             "value": "HUF",
             "name": "Hungarian forint",
-            "iso_code_4217": "HUF"
+            "vision_code": "HUF"
         },
         {
             "value": "IDR",
             "name": "Indonesian rupiah",
-            "iso_code_4217": "IDR"
+            "vision_code": "IDR"
         },
         {
             "value": "ILS",
             "name": "Israeli new shekel",
-            "iso_code_4217": "ILS"
+            "vision_code": "ILS"
         },
         {
             "value": "INR",
             "name": "Indian rupee",
-            "iso_code_4217": "INR"
+            "vision_code": "INR"
         },
         {
             "value": "IQD",
             "name": "Iraqi dinar",
-            "iso_code_4217": "IQD"
+            "vision_code": "IQD"
         },
         {
             "value": "IRR",
             "name": "Iranian rial",
-            "iso_code_4217": "IRR"
+            "vision_code": "IRR"
         },
         {
             "value": "ISK",
             "name": "Icelandic kr\u00f3na",
-            "iso_code_4217": "ISK"
+            "vision_code": "ISK"
         },
         {
             "value": "JMD",
             "name": "Jamaican dollar",
-            "iso_code_4217": "JMD"
+            "vision_code": "JMD"
         },
         {
             "value": "JOD",
             "name": "Jordanian dinar",
-            "iso_code_4217": "JOD"
+            "vision_code": "JOD"
         },
         {
             "value": "JPY",
             "name": "Japanese yen",
-            "iso_code_4217": "JPY"
+            "vision_code": "JPY"
         },
         {
             "value": "KES",
             "name": "Kenyan shilling",
-            "iso_code_4217": "KES"
+            "vision_code": "KES"
         },
         {
             "value": "KGS",
             "name": "Kyrgyzstani som",
-            "iso_code_4217": "KGS"
+            "vision_code": "KGS"
         },
         {
             "value": "KHR",
             "name": "Cambodian riel",
-            "iso_code_4217": "KHR"
+            "vision_code": "KHR"
         },
         {
             "value": "KMF",
             "name": "Comoro franc",
-            "iso_code_4217": "KMF"
+            "vision_code": "KMF"
         },
         {
             "value": "KPW",
             "name": "North Korean won",
-            "iso_code_4217": "KPW"
+            "vision_code": "KPW"
         },
         {
             "value": "KRW",
             "name": "South Korean won",
-            "iso_code_4217": "KRW"
+            "vision_code": "KRW"
         },
         {
             "value": "KWD",
             "name": "Kuwaiti dinar",
-            "iso_code_4217": "KWD"
+            "vision_code": "KWD"
         },
         {
             "value": "KYD",
             "name": "Cayman Islands dollar",
-            "iso_code_4217": "KYD"
+            "vision_code": "KYD"
         },
         {
             "value": "KZT",
             "name": "Kazakhstani tenge",
-            "iso_code_4217": "KZT"
+            "vision_code": "KZT"
         },
         {
             "value": "LAK",
             "name": "Lao kip",
-            "iso_code_4217": "LAK"
+            "vision_code": "LAK"
         },
         {
             "value": "LBP",
             "name": "Lebanese pound",
-            "iso_code_4217": "LBP"
+            "vision_code": "LBP"
         },
         {
             "value": "LKR",
             "name": "Sri Lankan rupee",
-            "iso_code_4217": "LKR"
+            "vision_code": "LKR"
         },
         {
             "value": "LRD",
             "name": "Liberian dollar",
-            "iso_code_4217": "LRD"
+            "vision_code": "LRD"
         },
         {
             "value": "LSL",
             "name": "Lesotho loti",
-            "iso_code_4217": "LSL"
+            "vision_code": "LSL"
         },
         {
             "value": "LYD",
             "name": "Libyan dinar",
-            "iso_code_4217": "LYD"
+            "vision_code": "LYD"
         },
         {
             "value": "MAD",
             "name": "Moroccan dirham",
-            "iso_code_4217": "MAD"
+            "vision_code": "MAD"
         },
         {
             "value": "MDL",
             "name": "Moldovan leu",
-            "iso_code_4217": "MDL"
+            "vision_code": "MDL"
         },
         {
             "value": "MGA",
             "name": "Malagasy ariary",
-            "iso_code_4217": "MGA"
+            "vision_code": "MGA"
         },
         {
             "value": "MKD",
             "name": "Macedonian denar",
-            "iso_code_4217": "MKD"
+            "vision_code": "MKD"
         },
         {
             "value": "MMK",
             "name": "Myanmar kyat",
-            "iso_code_4217": "MMK"
+            "vision_code": "MMK"
         },
         {
             "value": "MNT",
             "name": "Mongolian t\u00f6gr\u00f6g",
-            "iso_code_4217": "MNT"
+            "vision_code": "MNT"
         },
         {
             "value": "MOP",
             "name": "Macanese pataca",
-            "iso_code_4217": "MOP"
+            "vision_code": "MOP"
         },
         {
             "value": "MRU",
             "name": "Mauritanian ouguiya",
-            "iso_code_4217": "MRU"
+            "vision_code": "MRU"
         },
         {
             "value": "MUR",
             "name": "Mauritian rupee",
-            "iso_code_4217": "MUR"
+            "vision_code": "MUR"
         },
         {
             "value": "MVR",
             "name": "Maldivian rufiyaa",
-            "iso_code_4217": "MVR"
+            "vision_code": "MVR"
         },
         {
             "value": "MWK",
             "name": "Malawian kwacha",
-            "iso_code_4217": "MWK"
+            "vision_code": "MWK"
         },
         {
             "value": "MXN",
             "name": "Mexican peso",
-            "iso_code_4217": "MXN"
+            "vision_code": "MXN"
         },
         {
             "value": "MYR",
             "name": "Malaysian ringgit",
-            "iso_code_4217": "MYR"
+            "vision_code": "MYR"
         },
         {
             "value": "MZN",
             "name": "Mozambican metical",
-            "iso_code_4217": "MZN"
+            "vision_code": "MZN"
         },
         {
             "value": "NAD",
             "name": "Namibian dollar",
-            "iso_code_4217": "NAD"
+            "vision_code": "NAD"
         },
         {
             "value": "NGN",
             "name": "Nigerian naira",
-            "iso_code_4217": "NGN"
+            "vision_code": "NGN"
         },
         {
             "value": "NIO",
             "name": "Nicaraguan c\u00f3rdoba",
-            "iso_code_4217": "NIO"
+            "vision_code": "NIO"
         },
         {
             "value": "NOK",
             "name": "Norwegian krone",
-            "iso_code_4217": "NOK"
+            "vision_code": "NOK"
         },
         {
             "value": "NPR",
             "name": "Nepalese rupee",
-            "iso_code_4217": "NPR"
+            "vision_code": "NPR"
         },
         {
             "value": "NZD",
             "name": "New Zealand dollar",
-            "iso_code_4217": "NZD"
+            "vision_code": "NZD"
         },
         {
             "value": "OMR",
             "name": "Omani rial",
-            "iso_code_4217": "OMR"
+            "vision_code": "OMR"
         },
         {
             "value": "PAB",
             "name": "Panamanian balboa",
-            "iso_code_4217": "PAB"
+            "vision_code": "PAB"
         },
         {
             "value": "PEN",
             "name": "Peruvian sol",
-            "iso_code_4217": "PEN"
+            "vision_code": "PEN"
         },
         {
             "value": "PGK",
             "name": "Papua New Guinean kina",
-            "iso_code_4217": "PGK"
+            "vision_code": "PGK"
         },
         {
             "value": "PHP",
             "name": "Philippine peso",
-            "iso_code_4217": "PHP"
+            "vision_code": "PHP"
         },
         {
             "value": "PKR",
             "name": "Pakistani rupee",
-            "iso_code_4217": "PKR"
+            "vision_code": "PKR"
         },
         {
             "value": "PLN",
             "name": "Polish z\u0142oty",
-            "iso_code_4217": "PLN"
+            "vision_code": "PLN"
         },
         {
             "value": "PYG",
             "name": "Paraguayan guaran\u00ed",
-            "iso_code_4217": "PYG"
+            "vision_code": "PYG"
         },
         {
             "value": "QAR",
             "name": "Qatari riyal",
-            "iso_code_4217": "QAR"
+            "vision_code": "QAR"
         },
         {
             "value": "RON",
             "name": "Romanian leu",
-            "iso_code_4217": "RON"
+            "vision_code": "RON"
         },
         {
             "value": "RSD",
             "name": "Serbian dinar",
-            "iso_code_4217": "RSD"
+            "vision_code": "RSD"
         },
         {
             "value": "RUB",
             "name": "Russian ruble",
-            "iso_code_4217": "RUB"
+            "vision_code": "RUB"
         },
         {
             "value": "RWF",
             "name": "Rwandan franc",
-            "iso_code_4217": "RWF"
+            "vision_code": "RWF"
         },
         {
             "value": "SAR",
             "name": "Saudi riyal",
-            "iso_code_4217": "SAR"
+            "vision_code": "SAR"
         },
         {
             "value": "SBD",
             "name": "Solomon Islands dollar",
-            "iso_code_4217": "SBD"
+            "vision_code": "SBD"
         },
         {
             "value": "SCR",
             "name": "Seychelles rupee",
-            "iso_code_4217": "SCR"
+            "vision_code": "SCR"
         },
         {
             "value": "SDG",
             "name": "Sudanese pound",
-            "iso_code_4217": "SDG"
+            "vision_code": "SDG"
         },
         {
             "value": "SEK",
             "name": "Swedish krona/kronor",
-            "iso_code_4217": "SEK"
+            "vision_code": "SEK"
         },
         {
             "value": "SGD",
             "name": "Singapore dollar",
-            "iso_code_4217": "SGD"
+            "vision_code": "SGD"
         },
         {
             "value": "SHP",
             "name": "Saint Helena pound",
-            "iso_code_4217": "SHP"
+            "vision_code": "SHP"
         },
         {
             "value": "SLE",
             "name": "Sierra Leonean leone",
-            "iso_code_4217": "SLE"
+            "vision_code": "SLE"
         },
         {
             "value": "SOS",
             "name": "Somali shilling",
-            "iso_code_4217": "SOS"
+            "vision_code": "SOS"
         },
         {
             "value": "SRD",
             "name": "Surinamese dollar",
-            "iso_code_4217": "SRD"
+            "vision_code": "SRD"
         },
         {
             "value": "SSP",
             "name": "South Sudanese pound",
-            "iso_code_4217": "SSP"
+            "vision_code": "SSP"
         },
         {
             "value": "STN",
             "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe dobra",
-            "iso_code_4217": "STN"
+            "vision_code": "STN"
         },
         {
             "value": "SVC",
             "name": "Salvadoran col\u00f3n",
-            "iso_code_4217": "SVC"
+            "vision_code": "SVC"
         },
         {
             "value": "SYP",
             "name": "Syrian pound Old",
-            "iso_code_4217": "SYP"
+            "vision_code": "SYP"
         },
         {
             "value": "SYP01",
             "name": "Syrian pound",
-            "iso_code_4217": "SYP01"
+            "vision_code": "SYP01"
         },
         {
             "value": "SZL",
             "name": "Swazi lilangeni",
-            "iso_code_4217": "SZL"
+            "vision_code": "SZL"
         },
         {
             "value": "THB",
             "name": "Thai baht",
-            "iso_code_4217": "THB"
+            "vision_code": "THB"
         },
         {
             "value": "TJS",
             "name": "Tajikistani somoni",
-            "iso_code_4217": "TJS"
+            "vision_code": "TJS"
         },
         {
             "value": "TMT",
             "name": "Turkmenistan manat",
-            "iso_code_4217": "TMT"
+            "vision_code": "TMT"
         },
         {
             "value": "TND",
             "name": "Tunisian dinar",
-            "iso_code_4217": "TND"
+            "vision_code": "TND"
         },
         {
             "value": "TOP",
             "name": "Tongan pa\u02bbanga",
-            "iso_code_4217": "TOP"
+            "vision_code": "TOP"
         },
         {
             "value": "TRY",
             "name": "Turkish lira",
-            "iso_code_4217": "TRY"
+            "vision_code": "TRY"
         },
         {
             "value": "TTD",
             "name": "Trinidad and Tobago dollar",
-            "iso_code_4217": "TTD"
+            "vision_code": "TTD"
         },
         {
             "value": "TWD",
             "name": "New Taiwan dollar",
-            "iso_code_4217": "TWD"
+            "vision_code": "TWD"
         },
         {
             "value": "TZS",
             "name": "Tanzanian shilling",
-            "iso_code_4217": "TZS"
+            "vision_code": "TZS"
         },
         {
             "value": "UAH",
             "name": "Ukrainian hryvnia",
-            "iso_code_4217": "UAH"
+            "vision_code": "UAH"
         },
         {
             "value": "UGX",
             "name": "Ugandan shilling",
-            "iso_code_4217": "UGX"
+            "vision_code": "UGX"
         },
         {
             "value": "USD",
             "name": "United States dollar",
-            "iso_code_4217": "USD"
+            "vision_code": "USD"
         },
         {
             "value": "USDC",
             "name": "USD Coin",
-            "iso_code_4217": "USDC"
+            "vision_code": "USDC"
         },
         {
             "value": "UYU",
             "name": "Uruguayan peso",
-            "iso_code_4217": "UYU"
+            "vision_code": "UYU"
         },
         {
             "value": "UYW",
             "name": "Unidad previsional[14]",
-            "iso_code_4217": "UYW"
+            "vision_code": "UYW"
         },
         {
             "value": "UZS",
             "name": "Uzbekistan som",
-            "iso_code_4217": "UZS"
+            "vision_code": "UZS"
         },
         {
             "value": "VES",
             "name": "Venezuelan bol\u00edvar soberano",
-            "iso_code_4217": "VES"
+            "vision_code": "VES"
         },
         {
             "value": "VND",
             "name": "Vietnamese \u0111\u1ed3ng",
-            "iso_code_4217": "VND"
+            "vision_code": "VND"
         },
         {
             "value": "VUV",
             "name": "Vanuatu vatu",
-            "iso_code_4217": "VUV"
+            "vision_code": "VUV"
         },
         {
             "value": "WST",
             "name": "Samoan tala",
-            "iso_code_4217": "WST"
+            "vision_code": "WST"
         },
         {
             "value": "XAF",
             "name": "CFA franc BEAC",
-            "iso_code_4217": "XAF"
+            "vision_code": "XAF"
         },
         {
             "value": "XAG",
             "name": "Silver (one troy ounce)",
-            "iso_code_4217": "XAG"
+            "vision_code": "XAG"
         },
         {
             "value": "XAU",
             "name": "Gold (one troy ounce)",
-            "iso_code_4217": "XAU"
+            "vision_code": "XAU"
         },
         {
             "value": "XCD",
             "name": "East Caribbean dollar",
-            "iso_code_4217": "XCD"
+            "vision_code": "XCD"
         },
         {
             "value": "XOF",
             "name": "CFA franc BCEAO",
-            "iso_code_4217": "XOF"
+            "vision_code": "XOF"
         },
         {
             "value": "XPF",
             "name": "CFP franc (franc Pacifique)",
-            "iso_code_4217": "XPF"
+            "vision_code": "XPF"
         },
         {
             "value": "YER",
             "name": "Yemeni rial",
-            "iso_code_4217": "YER"
+            "vision_code": "YER"
         },
         {
             "value": "ZAR",
             "name": "South African rand",
-            "iso_code_4217": "ZAR"
+            "vision_code": "ZAR"
         },
         {
             "value": "ZMW",
             "name": "Zambian kwacha",
-            "iso_code_4217": "ZMW"
+            "vision_code": "ZMW"
         },
         {
             "value": "ZWL",
             "name": "Zimbabwean dollar",
-            "iso_code_4217": "ZWL"
+            "vision_code": "ZWL"
         }
     ],
     "content_type": "application/json"

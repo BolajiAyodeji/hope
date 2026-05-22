@@ -5,6 +5,5 @@
 export type Choice = {
     name: string;
     value: string;
-    iso_code_4217?: string;
 };
 

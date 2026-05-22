@@ -75,13 +75,10 @@ def all_currencies(db: Any) -> None:
 
     mod = importlib.import_module("hope.apps.core.migrations.0020_migration")
     Currency.objects.bulk_create(
-        [
-            Currency(code=code, name=name, is_crypto=is_crypto, iso_code_4217=code)
-            for code, name, is_crypto in mod.CURRENCIES
-        ],
+        [Currency(code=code, name=name, is_crypto=is_crypto) for code, name, is_crypto in mod.CURRENCIES],
         ignore_conflicts=True,
     )
-    Currency.objects.filter(iso_code_4217="").update(iso_code_4217=models.F("code"))
+    Currency.objects.filter(vision_code="").update(vision_code=models.F("code"))
 
 
 def pytest_addoption(parser: Parser) -> None:

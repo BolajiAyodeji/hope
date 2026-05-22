@@ -4,11 +4,6 @@ from django.db import migrations, models
 import django.db.models.deletion
 
 
-def populate_iso_code_4217(apps, schema_editor):
-    Country = apps.get_model("geo", "Country")
-    Country.objects.filter(iso_code_4217="").update(iso_code_4217=models.F("iso_code3"))
-
-
 class Migration(migrations.Migration):
     dependencies = [
         ("core", "0028_migration"),
@@ -16,12 +11,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AddField(
-            model_name="country",
-            name="iso_code_4217",
-            field=models.CharField(blank=True, default="", max_length=5),
-        ),
-        migrations.RunPython(populate_iso_code_4217, migrations.RunPython.noop),
         migrations.AddField(
             model_name="country",
             name="currency",

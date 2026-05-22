@@ -77,10 +77,10 @@ class PaymentInstructionFromSplitSerializer(ReadOnlyModelSerializer):
             "config_key": business_area.code,
             "delivery_mechanism": obj.payment_plan.delivery_mechanism.code,
             "office": business_area.slug,
-            "country": payment_country.iso_code_4217 if payment_country else None,
+            "country": payment_country.iso_code3 if payment_country else None,
         }
         if payment_country:  # TODO temporary solution
-            payload["destination_country_iso_code3"] = payment_country.iso_code_4217
+            payload["destination_country_iso_code3"] = payment_country.iso_code3
             payload["destination_country_iso_code2"] = payment_country.iso_code2
         return payload
 

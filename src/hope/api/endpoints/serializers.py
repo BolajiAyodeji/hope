@@ -20,7 +20,6 @@ class CountrySerializer(serializers.ModelSerializer):
             "iso_code2",
             "iso_code3",
             "iso_num",
-            "iso_code_4217",
             "valid_from",
             "valid_until",
             "updated_at",
